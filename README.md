@@ -169,5 +169,9 @@ Setelah instalasi selesai, masuk menggunakan akun bawaan berikut:
 
 ## Lisensi
 
-Proyek ini dilisensikan di bawah **Lisensi MIT** - lihat file [LICENSE](LICENSE) untuk detail lengkap.
+Proyek ini dilisensikan di bawah **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** - lihat file [LICENSE](LICENSE) untuk ketentuan detailnya.
+
+* **Boleh**: Digunakan untuk keperluan pribadi, pembelajaran, tugas akademis, dan dikembangkan/dimodifikasi lebih lanjut.
+* **Dilarang**: Diperjualbelikan, didistribusikan ulang untuk komersial, atau diklaim sebagai milik pribadi untuk keuntungan materi tanpa izin tertulis dari pengembang asli.
+
 Dikembangkan oleh **Yoga Nugroho**.
