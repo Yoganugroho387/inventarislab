@@ -8,7 +8,12 @@ Support      : [tako.id/YNGRHO](https://tako.id/YNGRHO)
 *Open Jasa Pembuatan Website & Joki Tugas Website*
 
 ---
+<!-- Tombol Demo Website -->
+<p align="center">
+  <a href="https://simlab.yobaseapp.me/"><img src="https://img.shields.io/badge/DEMO_WEBSITE-simlab.yobaseapp.me-00F5A0?style=for-the-badge&logo=internet-explorer&logoColor=black" alt="Demo Website"></a>
+</p>
 
+---
 ## Alur Sirkulasi Pengembalian (Scan QR Kamera)
 
 ```mermaid
