@@ -167,5 +167,7 @@ Setelah instalasi selesai, masuk menggunakan akun bawaan berikut:
 
 ---
 
-## Hak Cipta & Lisensi
-Dikembangkan oleh **Yoga Nugroho**. Hak cipta dilindungi undang-undang. Dilarang mendistribusikan ulang atau menyalin modul sistem ini tanpa izin tertulis dari pihak pengembang.
+## Lisensi
+
+Proyek ini dilisensikan di bawah **Lisensi MIT** - lihat file [LICENSE](LICENSE) untuk detail lengkap.
+Dikembangkan oleh **Yoga Nugroho**.
