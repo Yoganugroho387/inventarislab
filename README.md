@@ -7,10 +7,17 @@ WhatsApp     : **089685027530**
 Support      : [tako.id/YNGRHO](https://tako.id/YNGRHO)  
 *Open Jasa Pembuatan Website & Joki Tugas Website*
 
----
-<!-- Tombol Demo Website -->
+<!-- Tombol Demo Website & Akses Kredensial -->
 <p align="center">
   <a href="https://simlab.yobaseapp.me/"><img src="https://img.shields.io/badge/DEMO_WEBSITE-simlab.yobaseapp.me-00F5A0?style=for-the-badge&logo=internet-explorer&logoColor=black" alt="Demo Website"></a>
+</p>
+
+<p align="center">
+  <code style="color: #FF5722; font-family: 'Courier New', Courier, monospace;">
+  [!] WARNING: RESTRICTED ACCESS AREA<br>
+  ADMIN: admin / admin123<br>
+  STAFF: staff / staff123
+  </code>
 </p>
 
 ---
