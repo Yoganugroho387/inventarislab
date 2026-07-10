@@ -70,6 +70,27 @@ Untuk melindung sistem dari duplikasi dan penyalahgunaan, platform ini dilengkap
 * **Staff/Laboran**: Operasional harian sirkulasi peminjaman, scan pengembalian, dan riwayat aktivitas personal.
 * **Timeline Aktivitas**: Audit trail log sistem terekam secara runtut.
 
+### 6. Sirkulasi Pengeluaran Bahan Habis Pakai (Consumables Outflow)
+* **Direct Disbursement**: Modul khusus pengeluaran bahan habis pakai secara langsung tanpa perlu sirkulasi kembali, otomatis memotong stok barang.
+
+### 7. Integrasi WhatsApp Gateway (Fonnte)
+* **Realtime Notifications**: Pengiriman notifikasi otomatis via WhatsApp API Fonnte untuk status pengajuan (disetujui/ditolak), rekap pengajuan staff, serta bukti validasi pengembalian barang.
+* **Whatsapp Settings**: Pengaturan dinamis token API Fonnte dan status on/off integrasi langsung dari halaman Pengaturan Lab.
+
+### 8. Log Riwayat Perbaikan Aset (Asset Maintenance)
+* **Servis Log**: Histori komprehensif pemeliharaan aset inventaris yang mencakup rekap biaya, nama vendor reparasi, detail keluhan kerusakan, serta rekap tindakan perbaikan.
+* **Smart Status Transitions**: Otomatisasi perubahan status kondisi barang menjadi 'maintenance' saat diservis dan mengembalikannya ke status 'tersedia' atau 'rusak' setelah selesai.
+
+### 9. Kalender Reservasi / Booking Alat
+* **Jadwal Kalender**: Visualisasi kalender bulanan interaktif berbasis library FullCalendar.js untuk melihat jadwal peminjaman aktif dan draf booking alat di masa mendatang.
+* **Custom Loan Date**: Form peminjaman yang mendukung pengisian tanggal peminjaman di masa depan untuk keperluan reservasi.
+
+### 10. Impor Barang Massal via CSV
+* **Bulk Upload**: Setup katalog inventaris ratusan barang secara kilat melalui unggah file CSV. Dilengkapi otomatisasi pembuatan kategori, satuan, dan lokasi jika belum terdaftar di database.
+
+### 11. Visual Analytics Dashboard
+* **Grafik Interaktif**: Tampilan grafik tren peminjaman bulanan (Line Chart) dan diagram lingkaran rasio kondisi kelayakan barang (Doughnut Chart) berbasis Chart.js di Dashboard utama Admin.
+
 ---
 
 ## Arsitektur Basis Data
@@ -88,6 +109,8 @@ Sistem ini memiliki 10 tabel utama yang saling berelasi dengan integritas data t
 | `borrowing_details` | Rincian barang apa saja yang dipinjam, kuantitas, tanggal kembali, dan status fisik penerimaan. |
 | `activity_logs` | Log histori aktivitas user untuk tujuan audit keamanan. |
 | `settings` | Pengaturan variabel global sistem (seperti Nama Lab, Nama Aplikasi, dan Prefix QR). |
+| `item_disbursements` | Log pengeluaran bahan habis pakai secara langsung (permanen). |
+| `maintenance_logs` | Rekam histori servis, perawatan, dan biaya perbaikan barang inventaris. |
 
 ---
 
